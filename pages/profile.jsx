@@ -17,8 +17,7 @@ export default function ProfilePage({ email, created }) {
 					{extractNameFromEmail(email)}'s Profile
 				</h2>
 
-				<br />
-				<Link href='/profile'>
+				<Link href='/profile' className='px-3 text-center'>
 					Account created at <b>{created}</b>
 				</Link>
 				<br />

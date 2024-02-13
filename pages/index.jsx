@@ -35,7 +35,7 @@ export default function HomePage({ email }) {
 			) : (
 				<>
 					<div className='w-full h-screen flex items-center justify-center text-white bg-indigo-700 flex-col tracking-widest uppercase'>
-						<h2 className='text-4xl font-extrabold mb-4'>
+						<h2 className='text-4xl font-extrabold mb-4 text-center'>
 							Welcome to CCI Construction
 						</h2>
 						<br />
