@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&display=swap'); */
+
+/* :root {
 	--primary: #0ced6a;
 	--light-accent: #68d696;
 	--dark-accent: #08a449;
@@ -77,4 +81,4 @@ input[type='password']:focus {
 .red {
 	font-weight: bold;
 	color: var(--red);
-}
+} */
