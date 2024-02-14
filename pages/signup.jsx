@@ -118,7 +118,7 @@ export default function SignupPage({ email }) {
 										Already have an account{' '}
 										<Link
 											href='/login'
-											className='font-medium text-white hover:underline dark:text-primary-500'
+											className='font-medium text-indigo-300 hover:underline dark:text-primary-500'
 										>
 											Sign In
 										</Link>

@@ -94,7 +94,7 @@ export default function LoginPage({ email }) {
 									</div>
 									<a
 										href='#'
-										className='text-sm font-medium text-white hover:underline dark:text-primary-500'
+										className='text-sm font-medium text-indigo-300 ml-2 hover:underline dark:text-primary-500'
 									>
 										Forgot password?
 									</a>
@@ -109,7 +109,7 @@ export default function LoginPage({ email }) {
 									Don’t have an account yet?{' '}
 									<Link
 										href='/signup'
-										className='font-medium text-white hover:underline dark:text-primary-500'
+										className='font-medium text-indigo-300 hover:underline dark:text-primary-500'
 									>
 										Sign up
 									</Link>
